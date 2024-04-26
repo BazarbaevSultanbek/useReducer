@@ -1,0 +1,22 @@
+.App-header h3 {
+    margin: 40px 0;
+    font-size: 35px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.App-block{
+    margin-bottom: 50px;
+}
+.App-block li {
+    display: inline-block;
+    background-color: rgb(200, 199, 199);
+    height: 45px;
+    width: 150px;
+    margin-right: 10px;
+    text-transform: capitalize;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 23px;
+}

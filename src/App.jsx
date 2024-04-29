@@ -21,13 +21,11 @@ function App() {
         return <Game />
       case 'Fetch':
         return <Fetch />
-
       case 'Local':
         return <Local />
       case 'Wait':
         return <Wait />
-      default:
-        break;
+        
     }
   }
 
@@ -41,7 +39,7 @@ function App() {
           <ul>
             <li onClick={() => { setPage('Todo') }}>Todo</li>
             <li onClick={() => { setPage('cart') }}>store</li>
-            <li onClick={() => { setPage('') }}>game</li>
+            <li onClick={() => { setPage('Game') }}>game</li>
             <li onClick={() => { setPage('Fetch') }}>Fetch</li>
             <li onClick={() => { setPage('Local') }}>local</li>
             <li onClick={() => { setPage('') }}>Wait</li>
